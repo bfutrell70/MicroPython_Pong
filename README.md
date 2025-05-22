@@ -5,6 +5,15 @@ This project was written in an attempt to become more familiar with Python in a 
 
 It has undergone several changes as I have written it. Unfortunately, most of the changes were done without source code control.
 
+## Hardware:
+
+This project utilizes the following hardware:
+- WeMos D1 R32 with an ESP32 microcontroller. Any board with an ESP32 microcontroller can be used. Other boards capable of running MicroPython should be compatible
+(ESP8266, RP2040, etc.), but the code may minor modification.
+- OLED display module with a resolution of 132 x 64 (I think it is 0.96")
+- Analog joystick (PS2 style)
+- Breadboard to connect the components together. If the components are soldered together, the breadboard won't be needed.
+
 ## Files:
 
 - pong.py - the main program
